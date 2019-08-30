@@ -1,6 +1,6 @@
 ## An exercise in pagination with REST API, Google Maps and vanilla JavaScript
 
-I wanted to re-vist pagination
+I wanted to re-vist pagination.
 
 Using the Fetch API, I bring in some sample data from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 
