@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+input[type='button'] {
+  border: none;
+  padding: 10px;
+  margin-bottom: 6px;
+  margin-right: 4px;
+  font-size: 16px;
+  background-color: darkgreen;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+input[type='button']:disabled {
+  background-color: darkgrey;
+  cursor: unset;
+}
+.list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul#list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  min-height: 50px;
+}
+li.card {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.info {
+  width: 50%;
+  min-width: 240px;
+}
+.card p {
+  line-height: 0.2;
+  padding: 10px 0;
+  margin: 0;
+}
+.address {
+  padding-left: 20px;
+}
+.map {
+  width: 260px;
+  height: 220px;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 550px) {
+  li.card {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
